@@ -10,7 +10,7 @@ const header = document.createElement('h1');
 header.textContent = 'DOM (Document Object Model)';
 
 // Добавить H1 перед DIV с классом wrapper
-div.insertAdjacentElement('beforebegin', header)
+div.insertAdjacentElement('beforebegin', header);
 // Создать список <ul></ul>
 // Добавить в него 3 элемента с текстом "один, два, три"
 
